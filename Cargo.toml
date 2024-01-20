@@ -37,3 +37,6 @@ harness = false
 
 [profile.bench]
 debug = 1
+
+[patch.crates-io]
+geo = { git = "https://github.com/invenium/georust-geo.git", tag = "geo-v0.27.0-stable-abi" }
